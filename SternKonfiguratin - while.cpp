@@ -1,12 +1,12 @@
 #include <iostream>
 
 int main() {
-    int numLines;
+    int n;
     std::cout << "Bitte geben Sie die Anzahl der Zeilen ein: ";
-    std::cin >> numLines;
+    std::cin >> n;
 
     int i = 1;
-    while (i <= numLines) {
+    while (i <= n) {
         int j = 1;
         while (j <= i) {
             std::cout << "*";
